@@ -1,4 +1,6 @@
 import random
+from PIL import Image
+img = Image.open("Map-v2.png")
 
 print("Defeat the super evil, evil skeleton made of evil bones")
 print()
@@ -362,6 +364,9 @@ while True:
     elif opt == "query" or opt == "qer" or opt == "q":
         player.invQer()
         player.spacQer()
+    elif opt == "whats going on im so lost":
+        print("the red circle is at 1, 1, forward increases x, right increases y")
+        img.show()
     else:
-        print("Invalid input (try forward, right, left, backward, or query, or try inputing their first letters)")
+        print("Invalid input (try forward, right, left, backward, query, or whats going on im so lost, or try inputing their first letters)")
     print()
