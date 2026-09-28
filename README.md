@@ -24,10 +24,10 @@ As the player completes actions, the game should remember what has happened and 
 * [x] Your game contains **at least 10 different rooms or locations**.
 * [x] The rooms are connected in a **non-linear layout**. The player must have choices about where to travel rather than simply moving through rooms in one fixed order.
 * [ ] Each room provides a clear description when the player enters it.
-* [ ] Each room provides the player with appropriate actions or choices.
+* [x] Each room provides the player with appropriate actions or choices.
 * [x] The player can move between rooms using text input.
-* [ ] Your game has a clear objective and a clear ending.
-* [ ] The player can successfully complete or win the game.
+* [x] Your game has a clear objective and a clear ending.
+* [x] The player can successfully complete or win the game.
 
 ### Tracking Game Information
 

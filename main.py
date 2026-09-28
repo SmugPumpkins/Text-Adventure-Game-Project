@@ -1,5 +1,8 @@
 import random
 
+print("Defeat the super evil, evil skeleton made of evil bones")
+print()
+
 choiceCount = 0
 maxHealth = 40
 inv = {"KEYBASIC": 0,
