@@ -20,19 +20,19 @@ As the player completes actions, the game should remember what has happened and 
 
 ### Game Structure
 
-* [ ] Your game uses a **state machine** to keep track of the player's current room or location.
-* [ ] Your game contains **at least 10 different rooms or locations**.
-* [ ] The rooms are connected in a **non-linear layout**. The player must have choices about where to travel rather than simply moving through rooms in one fixed order.
+* [x] Your game uses a **state machine** to keep track of the player's current room or location.
+* [x] Your game contains **at least 10 different rooms or locations**.
+* [x] The rooms are connected in a **non-linear layout**. The player must have choices about where to travel rather than simply moving through rooms in one fixed order.
 * [ ] Each room provides a clear description when the player enters it.
 * [ ] Each room provides the player with appropriate actions or choices.
-* [ ] The player can move between rooms using text input.
+* [x] The player can move between rooms using text input.
 * [ ] Your game has a clear objective and a clear ending.
 * [ ] The player can successfully complete or win the game.
 
 ### Tracking Game Information
 
-* [ ] Your program uses **at least 6 variables** to keep track of information about what has happened in the game.
-* [ ] These variables affect what the player can see, do, or access later in the game.
+* [x] Your program uses **at least 6 variables** to keep track of information about what has happened in the game.
+* [x] These variables affect what the player can see, do, or access later in the game.
 
 Possible information to track could include:
 

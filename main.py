@@ -327,9 +327,11 @@ Wall((0, 1, 0 ,2), "SOLID")
 Wall((1, 0, 0, 0), "SOLID")
 Wall((0, 1, 0, 0), "LOCKEDDOORBASIC")
 
-Room.generateRooms(1, 4, 1, 3)
-Room.setRoomType(1, 4, "SWORDPICKUP")
-Room.setRoomType(1, 6, "SKELETONENCOUNTER")
+Room.generateRooms(1, 1, 1, -1)
+Room.setRoomType(1, -1, "SWORDPICKUP")
+
+Room.generateRooms(1, 2, 1, 3)
+Room.setRoomType(1, 4, "SKELETONENCOUNTER")
 Wall((1, 2, 1, 3), "LOCKEDDOORORNATE")
 
 
