@@ -8,6 +8,14 @@ inv = {"KEYBASIC": 0,
        "HEALTH": maxHealth,
        "FEMURBONE": 0}
 
+def win():
+    while True:
+        input(f"Horray{chr(33)} You defeated the skeleton and won{chr(33)} You can now close the program")
+
+def loose():
+    while True:
+        input("You failed to defeat the skeleton and die, please restart program")
+
 class Room:
     rooms = []
 
@@ -234,12 +242,11 @@ class Player:
                     if skelHealth <= 0:
                         inv["FEMURBONE"] += 1
                         print(f"You defeat the skeleton and pickup femur bone ({inv["FEMURBONE"]} femur bone(s))")
+                        win()
                         break
 
                     if inv["HEALTH"] <= 0:
-                        print("You failed to defeat the skeleton and die, please restart program")
-                        while True:
-                            input("Womp")
+                        loose()
 
                     print()
             
